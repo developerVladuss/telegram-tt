@@ -1,14 +1,16 @@
 {
-    "headers": [
-      {
-        "source": "/(.*)",
-        "headers": [
-          {
-            "key": "Content-Security-Policy",
-            "value": "script-src 'self' 'wasm-unsafe-eval' https://t.me/_websync_ https://telegram.me/_websync_ https://vercel.live"
-          }
-        ]
-      }
-    ]
-  }
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "script-src 'self' 'wasm-unsafe-eval' https://t.me/_websync_ https://telegram.me/_websync_ https://vercel.live https://vercel.live/_next-live/feedback/feedback.js"
+        }
+      ]
+    }
+  ]
+}
+
+
   
